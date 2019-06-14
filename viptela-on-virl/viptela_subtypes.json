@@ -1,0 +1,57 @@
+{
+  "dynamic-subtypes": [
+    {
+      "baseline_flavor": "vBond", 
+      "hw_disk_bus": "ide", 
+      "plugin_desc": "vBond", 
+      "config_file": "/openstack/latest/user_data", 
+      "hw_vcpus": 2, 
+      "plugin_name": "vBond", 
+      "plugin_base": "server", 
+      "baseline_image": "vBond", 
+      "hw_vm_extra": "", 
+      "deprecated_use": "", 
+      "hw_ram": 1024
+    }, 
+    {
+      "baseline_flavor": "vEdge", 
+      "plugin_name": "vEdge", 
+      "hw_disk_bus": "ide", 
+      "plugin_desc": "vEdge", 
+      "config_file": "/openstack/latest/user_data", 
+      "hw_vcpus": 2, 
+      "baseline_image": "vEdge", 
+      "interface_first": 0, 
+      "plugin_base": "server", 
+      "interface_pattern": "ge0/{0}", 
+      "hw_vm_extra": "", 
+      "deprecated_use": "", 
+      "device_type": "router", 
+      "hw_ram": 1024
+    }, 
+    {
+      "baseline_flavor": "vManage", 
+      "hw_disk_bus": "ide", 
+      "plugin_desc": "vManage", 
+      "hw_vcpus": 2, 
+      "plugin_name": "vManage", 
+      "plugin_base": "server", 
+      "baseline_image": "vManage", 
+      "hw_vm_extra": "", 
+      "deprecated_use": "", 
+      "hw_ram": 8192
+    }, 
+    {
+      "baseline_flavor": "vSmart", 
+      "hw_disk_bus": "ide", 
+      "plugin_desc": "vSmart", 
+      "hw_vcpus": 2, 
+      "plugin_name": "vSmart", 
+      "plugin_base": "server", 
+      "baseline_image": "vSmart", 
+      "hw_vm_extra": "", 
+      "deprecated_use": "", 
+      "hw_ram": 1024
+    }
+  ]
+}
