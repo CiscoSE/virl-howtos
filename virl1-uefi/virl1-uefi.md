@@ -24,7 +24,7 @@ This howto was created in order to install VIRL onto a Cisco UCS C220 M5 server 
 1. `mkfs -t vfat -v /dev/disk/by-partlabel/EFI-system`
 1. `sudo apt-get install -y grub-efi-amd64`
 1. `sudo mount /dev/nvme0n1p1 /mnt`
-    > Note: use the root partition that VIRL was installed to.  In my case that was /dev/nvme0n1p2.
+    > Note: use the root partition that VIRL was installed to.  In my case that was /dev/nvme0n1p1.
 1. `sudo mkdir -p /mnt/boot/efi`
 1. `sudo mount /dev/nvme0n1p2 /mnt/boot/efi` 
     > Note: use the partition you created for EFI-system above.  In my case that was /dev/nvme0n1p2.
