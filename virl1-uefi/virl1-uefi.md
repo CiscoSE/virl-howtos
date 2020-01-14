@@ -29,8 +29,8 @@ This howto was created in order to install VIRL onto a Cisco UCS C220 M5 server 
 1. `sudo mount /dev/nvme0n1p2 /mnt/boot/efi` 
     > Note: use the partition you created for EFI-system above.  In my case that was /dev/nvme0n1p2.
 1. `for d in dev sys proc usr run; do sudo mount -B /$d /mnt/$d; done`
-1. sudo modprobe efivars
-1. sudo chroot /mnt
+1. `sudo modprobe efivars`
+1. `sudo chroot /mnt`
 1. `grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=ubuntu --recheck --no-floppy --debug`
 1. Unmount the Ubuntu 16.04 Desktop ISO
 1. Reboot
