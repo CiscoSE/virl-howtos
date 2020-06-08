@@ -6,7 +6,7 @@ In the top right, click Tools -> Node and Image Definitions. Scroll down to the 
 ## Image Upload and Definitions
 Note that the version numbers in the examples below will vary depending on the release you choose to deploy in your environment.
 
-In the top right, click 'Tools' -> 'Node and Image Definitions.' Click 'Manage Uploaded Images'. Click 'Browse' and upload an image for each of the following:
+In the top right, click 'Tools' -> 'Node and Image Definitions.' Click 'Manage Uploaded Images.' Click 'Browse' and upload an image for each of the following:
 - csr1000v-ucmk9.16.12.2r-serial.qcow2
 - viptela-edge-19.2.1-genericx86-64.qcow2
 - viptela-smart-19.2.1-genericx86-64.qcow2
